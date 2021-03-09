@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #f0c3ef;
   color: #444;
   display: flex;
   align-items: center;
@@ -16,16 +16,16 @@ body {
 }
 
 h1 {
-  color: rgb(179, 131, 226);
-  font-size: 10rem;
+  color: rgb(66, 27, 106);
+  font-size: 6rem;
   text-align: center;
   opacity: 0.4;
 }
 
 form {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   width: 400px;
+  opacity: 1;
 }
 
 .input {
@@ -35,10 +35,12 @@ form {
   padding: 1rem 2rem;
   display: block;
   width: 100%;
+  border-radius: 33px;
 }
 
 .input::placeholder {
   color: #d5d5d5;
+  text-align: center;
 }
 
 .todos {
@@ -60,8 +62,9 @@ form {
   text-decoration: line-through;
 }
 
-small {
-  color: #b5b5b5;
+p {
+  color: #675757;
   margin-top: 3rem;
   text-align: center;
+  font-weight: bolder;
 }
